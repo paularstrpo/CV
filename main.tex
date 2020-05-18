@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% --------------------------
+% ICON CREDITS: Icons made by...
+% Freepik: https://www.flaticon.com/authors/freepik 
+% Flaticon(www.flaticon.com) is licensed by Creative Commons BY 3.0
+% --------------------------
+
+\documentclass[letterpaper]{style} % Use US Letter paper, change to a4paper for A4 
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tikz}
+\def\ci#1{\textcircled{\resizebox{.5em}{!}{#1}}}
+
+\begin{document}
+
+% --------------------------
+%	TITLE SECTION
+% --------------------------
+
+
+
+\namesection{{Paula}}{Restrepo}{
+\href{mailto:paularstrpo@gmail.com}{\ci{\faEnvelope}} {\fontsize{9.5}{9.5}\selectfont \href{mailto:paularstrpo@gmail.com}{paularstrpo@gmail.com}}
+}
+{
+\ci{\faPhone}  {\fontsize{9.5}{9.5}\selectfont 917.403.7011} 
+}
+{
+\href{https://github.com/paularstrpo}{\ci{\faGithub}} {\fontsize{9.5}{9.5}\selectfont \href{https://github.com/paularstrpo}{@paularstrpo}}
+}
+{
+\href{https://www.linkedin.com/in/paularstrpo}{\ci{\faLinkedin}} {\fontsize{9.5}{9.5}\selectfont \href{https://www.linkedin.com/in/paularstrpo}{@paularstrpo}}
+}
+
+
+
+\input{page1.tex}
+\input{page2.tex}
+
+\end{document}
