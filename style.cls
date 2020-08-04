@@ -44,11 +44,11 @@
 \begin{minipage}[t][.8cm][t]{.58\textwidth}
 %\vspace{1 pt}
 \raggedright{ % Center the name
-\fontsize{44pt}{44pt} % Font size
+\fontsize{48pt}{48pt} % Font size
 \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1 % First name font
 \color{black}
 \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #2 % Last name font
-} %\\[5pt] % Whitespace between the name and contact information
+} \\[5pt] % Whitespace between the name and contact information
 
 \end{minipage}
 % phone / email
@@ -60,7 +60,7 @@
 \fontspec[Path = fonts/lato/]{Lato-Bol}
 \fontsize{22}{18}\selectfont 
 #3 
-\vspace{6 pt}
+\vspace{3 pt}
 \\
 #4
 \end{minipage}
@@ -73,7 +73,7 @@
 \fontspec[Path = fonts/lato/]{Lato-Bol}
 \fontsize{22}{18}\selectfont 
 #5
-\vspace{6 pt}
+\vspace{3 pt}
 \\
 #6
 % Contact information font
@@ -92,9 +92,9 @@
 \\
 % Contact information font
 %\end{minipage}
-
+\vspace{-25pt} % Reduce whitespace before  the rule slightly
 \noindent\makebox[\linewidth]{\color{subsubheadings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
-\vspace{-5pt} % Reduce whitespace after the rule slightly
+\vspace{-10pt} % Reduce whitespace after the rule slightly
 }
 
 %----------------------------------------------------------------------------------------
